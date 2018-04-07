@@ -1,0 +1,5 @@
+<launch>
+	<!-- ps4_teleop_node  --> 
+	<node pkg="ps4_teleop" type="ps4_teleop_node" name="ps4_teleop_node"
+		output="screen" launch-prefix="$(arg launch_prefix)" /> 
+</launch>
